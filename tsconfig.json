@@ -1,22 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
-    "esModuleInterop": true,
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
     "allowJs": true,
-    "skipLibCheck": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true
+    "checkJs": false,
+    "jsx": "react-jsx", // or "react" for older versions
+    "noEmit": true
   },
-  "include": ["src", "src/types"],
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.node.js
+  "include": ["src"]
+}
