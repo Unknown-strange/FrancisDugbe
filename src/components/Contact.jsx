@@ -23,7 +23,7 @@ const Contact = () => {
     setFormStatus(''); // Clear previous status
 
     try {
-      const response = await fetch('http://localhost:5000/api/submit_contact_form', {
+      const response = await fetch('https://potfolio-backend-vsoz.onrender.com/api/submit_contact_form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
